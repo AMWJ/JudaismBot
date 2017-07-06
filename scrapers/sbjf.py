@@ -25,7 +25,7 @@ def parseSBJF():
                 stack.append(child)
     print("Done")
 def parseList(node):
-    entry = {"language":"Yiddish", "english":[]}
+    entry = {"language":"Yiddish", "english":[], "hebrew":[]}
     entryDone = False
     foundTerm = False
     breaklineCount = 0;
